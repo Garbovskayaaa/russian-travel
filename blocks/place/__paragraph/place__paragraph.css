@@ -1,0 +1,15 @@
+.place__paragraph{
+  width: 484px;
+  height: 460px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+  grid-area: paragraph;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  row-gap: 26px;
+}
