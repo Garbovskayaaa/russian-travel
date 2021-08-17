@@ -13,3 +13,24 @@
   grid-template-rows: 1fr 1fr 1fr;
   row-gap: 26px;
 }
+@media screen and (max-width: 1024px) {
+.place__paragraph{
+  width: 456px;
+  height: 440px;
+  }
+}
+@media screen and (max-width: 768px) {
+.place__paragraph{
+  height: 390px;
+  width: 352px;
+  font-size: 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+.place__paragraph{
+  width: 288px;
+  font-size: 16px;
+  margin-left: 16px;
+  row-gap: 25px;
+  }
+}

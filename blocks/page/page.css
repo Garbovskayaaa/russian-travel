@@ -1,11 +1,15 @@
-  .page{
-    max-width: 1280px;
-    min-width: 320px;
-    min-height: 6875px;
-    max-height: 10023px;
-    margin: 0 auto;
-    background: #2A2C2F;
-    position: relative;
-    font-family: 'Inter';
-    text-rendering: optimizeLegibility;
-  }
+.page{
+  min-width: 288px;
+  min-height: 6875px;
+  max-height: 10023px;
+  margin: 0 auto;
+  background: #2A2C2F;
+  position: relative;
+  font-family: "Inter";
+  text-rendering: optimizeLegibility;
+}
+@media screen and (max-width: 320px) {
+.page{
+  height: 10023px;
+}
+}

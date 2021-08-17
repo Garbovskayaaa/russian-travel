@@ -10,3 +10,11 @@
   color: #FFFFFF;
   margin: 0;
 }
+@media screen and (max-width: 320px) {
+.footer__copyright{
+  height: 14px;
+  left: 0;
+  top: 48px;
+  bottom: 24px;
+  }
+}

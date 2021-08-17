@@ -8,3 +8,26 @@
   width: 1184px;
   height: 18px;
 }
+@media screen and (max-width: 1024px) {
+.footer{
+  width: 928px;
+  bottom: 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+.footer{
+  width: 720px;
+  bottom: 24px;
+  left: 24px;
+  }
+}
+@media screen and (max-width: 320px) {
+.footer{
+  width: 214px;
+  height: 310px;
+  left: 16px;
+  top: 9689px;
+  display: flex;
+  flex-direction: column;
+  }
+}

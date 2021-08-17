@@ -12,3 +12,18 @@
   line-height: 18px;
   color: #FFFFFF;
 }
+@media screen and (max-width: 768px) {
+  .intro__list{
+    width: 720px;
+ }
+}
+@media screen and (max-width: 320px) {
+  .intro__list{
+    width: 288px;
+    top: 664px;
+    font-size: 12px;
+    height: 90px;
+    line-height: 18px;
+    /* or 150% */
+ }
+}

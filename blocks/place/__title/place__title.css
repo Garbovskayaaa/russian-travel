@@ -10,3 +10,18 @@
   color: #FFFFFF;
   grid-area: title;
 }
+@media screen and (max-width: 768px) {
+.place__title{
+  width: 340px;
+  font-size: 42px;
+  line-height: 46px;
+  display: flex;
+ }
+}
+@media screen and (max-width: 320px) {
+  .place__title{
+    font-size: 32px;
+    line-height: 35px;
+    margin-left: 16px;
+ }
+}
