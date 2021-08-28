@@ -1,8 +1,6 @@
 @import url('../vendor/normalize.css');
 @import url('../fonts/fonts.css');
 
-@import url('../inter/inter.css/inter.css');
-
 @import url('../blocks/page/page.css');
 
 @import url('../blocks/header/__logo/header__logo.css');
@@ -43,9 +41,4 @@
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
-@import url('../blocks/footer/__links/footer__links.css');
-
-
-
-
 
