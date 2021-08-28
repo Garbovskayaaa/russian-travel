@@ -1,45 +1,34 @@
 .cover__subtitle{
-  position: absolute;
-  width: 360px;
-  height: 66px;
-  top: 429px;
-  left: 412px;
-  bottom: 245px;
-  margin: 0;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  /* or 122% */
-  text-align: center;
-  color: #FFFFFF;
-  z-index: 3;
-}
-@media screen and (max-width: 1024px) {
-.cover__subtitle{
-  top: 379px;
-  left: 332px;
-  bottom: 195px;
-  }
-}
-@media screen and (max-width: 768px) {
-.cover__subtitle{
-  top: 299px;
-  left: 204px;
-  bottom: 115px;
-  }
-}
-@media screen and (max-width: 320px) {
-.cover__subtitle{
-  top: 119px;
-  left: 16px;
-  bottom: 33px;
+  margin: 16px 16px 0 16px;
   width: 288px;
   height: 48px;
   font-size: 14px;
   padding: 0;
   line-height: 16px;
-  /* or 114% */
   text-align: center;
+  color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+  .cover__subtitle{
+    margin-top: 32px;
+    margin-left: 204px;
+    margin-right: 204px;
+    height: 66px;
+    width: 360px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+@media (min-width: 1024px) {
+  .cover__subtitle{
+    margin-left: 332px;
+    margin-right: 332px;
+  }
+}
+@media (min-width: 1280px) {
+  .cover__subtitle{
+    margin-left: 412px;
+    margin-right: 412px;
   }
 }

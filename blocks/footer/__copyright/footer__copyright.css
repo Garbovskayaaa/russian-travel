@@ -1,20 +1,21 @@
 .footer__copyright{
-  height: 16px;
-  left: 1046px;
-  left: 533px;
-  font-style: normal;
-  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  height: 14px;
+  margin-left: 0;
+  margin-top: 272px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  text-align: right;
   color: #FFFFFF;
-  margin: 0;
+  width: 203px;
 }
-@media screen and (max-width: 320px) {
-.footer__copyright{
-  height: 14px;
-  left: 0;
-  top: 48px;
-  bottom: 24px;
+
+@media (min-width: 768px) {
+  .footer__copyright{
+    text-align: right;
+    text-align: end;
+    margin-top: 0;
+    height: 16px;
   }
 }

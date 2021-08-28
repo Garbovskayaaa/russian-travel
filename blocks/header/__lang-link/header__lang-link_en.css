@@ -1,22 +1,22 @@
 .header__lang-link_en{
-  width: 29px;
-  height: 28px;
-  margin: 46px 0px 0px 0px;
-  margin-top: 46px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 20px;
+  width: 22px;
+  height: 20px;
+  margin: 0;
+  margin-top: 14px;
+  margin-right: 0px;
   text-align: right;
   color: #FFFFFF;
   grid-area: linkE;
 }
 
-  @media screen and (min-width: 320px) and (max-width: 425px){
-  .header__lang-link_en{
-    width: 22px;
-    height: 20px;
-    font-size: 18px;
-    line-height: 20px;
+@media (min-width: 768px) {
+  .header__lang-link_en {
+    width: 30px;
+    height: 28px;
+    margin-top: 18px;
+    font-size: 24px;
+    line-height: 28px;
   }
 }

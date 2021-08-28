@@ -1,12 +1,15 @@
 .header__logo{
-  width: 176px;
-  height: 52px;
-  margin-top: 28px;
-  grid-area: logo;
-}
-@media only screen and (min-width: 320px) and (max-width: 424px){
-.header__logo{
   width: 142px;
   height: 42px;
+  margin-top: 0;
+  margin-left: 0;
+  grid-area: logo;
+}
+
+@media (min-width: 768px) {
+  .header__logo {
+    width: 178px;
+    height: 52px;
   }
 }
+

@@ -1,44 +1,40 @@
 .places{
-  position: absolute;
-  display: grid;
+  padding: 0;
+  margin: 0;
+  display: flex;
   flex-direction: column;
-  grid-template-rows: 660px 584px 584px 660px 584px; 
-  row-gap: 80px;
-  width: 984px;
-  height: 3392px;
-  left: 148px;
-  right: 148px;
-  top: 2517px;
-  
-}
-@media screen and (max-width: 1024px) {
-.places{
-  grid-template-rows: 640px 564px 564px 640px 564px; 
-  left: 48px;
-  width: 928px;
-  height: 3292px;
-  top: 2737px;
-  }
-}
-@media screen and (max-width: 768px) {
-.places{
-  grid-template-rows: 535px 535px 483px 434px 484px; 
-  left: 24px;
-  width: 720px;
-  height: 2808px;
-  top: 3347px;
-  row-gap: 73px;
-  }
-}
-@media screen and (max-width: 320px) {
-.places{
-  grid-template-rows: 1042px 1016px 990px 964px 965px;
-  grid-template-columns: repeat(1, 320px);
   gap: 50px;
-  left: 0px;
-  width: 320px;
-  height: 5177px;
-  top: 4182px;
-  position: absolute;
+  margin-top: 64px;
+  margin-left: 0;
+}
+
+@media (min-width: 637px) {
+  .places{
+  margin-left: 24px;
+  min-width: 575px;
+  row-gap: 73px;
+  margin-top: 92px;
+  margin-right: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .places{
+  min-width: 720px;
+  }
+}
+@media (min-width: 1024px) {
+  .places{
+  margin-left: 48px;
+  margin-right: 48px;
+  min-width: 928px;
+  row-gap: 80px;;
+  }
+}
+@media (min-width: 1280px) {
+  .places{
+    min-width: 984px;
+    margin-left: 148px;
+    margin-right: 148px;
   }
 }
