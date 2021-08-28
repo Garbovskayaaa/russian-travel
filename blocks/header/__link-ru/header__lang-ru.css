@@ -1,4 +1,4 @@
-.header__lang-link_ru{
+.header__lang-ru{
   width: 22px;
   height: 20px;
   margin: 0;
@@ -14,7 +14,7 @@
 }
 
 @media (min-width: 768px) {
-  .header__lang-link_ru {
+  .header__lang-ru {
     width: 30px;
     height: 28px;
     margin-top: 18px;

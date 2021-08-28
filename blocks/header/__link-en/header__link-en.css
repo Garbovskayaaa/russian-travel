@@ -1,4 +1,4 @@
-.header__lang-link_en{
+.header__link-en{
   font-size: 18px;
   line-height: 20px;
   width: 22px;
@@ -12,7 +12,7 @@
 }
 
 @media (min-width: 768px) {
-  .header__lang-link_en {
+  .header__link-en {
     width: 30px;
     height: 28px;
     margin-top: 18px;
