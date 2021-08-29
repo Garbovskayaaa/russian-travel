@@ -1,8 +1,6 @@
 .header__link-en{
   font-size: 18px;
   line-height: 20px;
-  width: 22px;
-  height: 20px;
   margin: 0;
   margin-top: 14px;
   margin-right: 0px;
@@ -13,8 +11,6 @@
 
 @media (min-width: 768px) {
   .header__link-en {
-    width: 30px;
-    height: 28px;
     margin-top: 18px;
     font-size: 24px;
     line-height: 28px;

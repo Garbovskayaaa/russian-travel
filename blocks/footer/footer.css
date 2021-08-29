@@ -15,21 +15,18 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    margin-top: 88px;
     min-height: 18px;
+    margin-top: 88px;
     margin-right: 16px;
     margin-left: 16px;
-    min-width: 720px;
     }
 }
 
 @media (min-width: 1024px) {
   .footer{
-  min-width: 928px;
-  height: 18px;
-  margin-top: 92px;
-  margin-left: 48px;
-  margin-right: 48px;
+    margin-top: 92px;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }
 

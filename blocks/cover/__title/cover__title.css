@@ -1,11 +1,11 @@
-.cover__title{
+.cover__title {
     font-weight: 900;
     font-size: 32px;
     line-height: 1.06;
     text-align: center;
     color: #FFFFFF;
     margin: 33px 16px 0 16px;
-    width: 288px;
+    max-width: 288px;
 }
 
 @media (min-width: 768px) {
@@ -15,10 +15,10 @@
     margin-top: 115px;
     font-size: 72px;
     line-height: 76px;
-    width: 560px;
-    height: 152px;
+    max-width: 560px;
   }
 }
+
 @media (min-width: 1024px) {
   .cover__title{
     margin-top: 195px;

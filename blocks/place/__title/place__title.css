@@ -8,6 +8,7 @@
   margin: 0;
   margin-left: 16px;
   margin-right: 16px;
+  max-width: 320px;
 }
 
 @media (min-width: 768px) {
@@ -16,7 +17,6 @@
     line-height: 46px;
     margin-left: 0;
     margin-right: 0;
-    width: 340px;
    }
 }
 
@@ -24,12 +24,5 @@
   .place__title{
     font-size: 72px;
     line-height: 76px;
-    width: 440px;
    }
-}
-
-@media (min-width: 1280px) {
-  .place__title{
-    width: 460px;
-  }
 }

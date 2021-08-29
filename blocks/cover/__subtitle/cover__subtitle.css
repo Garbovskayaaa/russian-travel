@@ -1,7 +1,6 @@
 .cover__subtitle{
-  margin: 16px 16px 0 16px;
-  width: 288px;
-  height: 48px;
+  margin: 16px 16px 33px 16px;
+  max-width: 288px;
   font-size: 14px;
   padding: 0;
   line-height: 16px;
@@ -14,8 +13,9 @@
     margin-top: 32px;
     margin-left: 204px;
     margin-right: 204px;
-    height: 66px;
-    width: 360px;
+    margin-bottom: 115px;
+    max-height: 66px;
+    max-width: 360px;
     font-size: 18px;
     line-height: 22px;
   }
@@ -24,11 +24,14 @@
   .cover__subtitle{
     margin-left: 332px;
     margin-right: 332px;
+    margin-bottom: 195px;
   }
 }
+
 @media (min-width: 1280px) {
   .cover__subtitle{
     margin-left: 412px;
     margin-right: 412px;
+    margin-bottom: 245px;
   }
 }

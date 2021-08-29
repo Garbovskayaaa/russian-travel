@@ -7,10 +7,3 @@
   font-size: 16px;
   color: #FFFFFF;
 }
-
-@media (min-width: 768px) {
-  .intro__text {
-    height: 208px;
-  }
-}
-

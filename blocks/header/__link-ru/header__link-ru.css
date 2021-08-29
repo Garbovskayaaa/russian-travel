@@ -1,6 +1,4 @@
-.header__lang-ru{
-  width: 22px;
-  height: 20px;
+.header__link-ru {
   margin: 0;
   margin-top: 14px;
   margin-right: 18px;
@@ -14,9 +12,7 @@
 }
 
 @media (min-width: 768px) {
-  .header__lang-ru {
-    width: 30px;
-    height: 28px;
+  .header__link-ru {
     margin-top: 18px;
     font-size: 24px;
     line-height: 28px;
