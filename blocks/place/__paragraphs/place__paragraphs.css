@@ -1,7 +1,6 @@
 .place__paragraphs{
     margin: 0;
     row-gap: 25px;
-    min-width: 320px;
     display: flex;
     flex-direction: column;
 }

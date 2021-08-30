@@ -6,7 +6,8 @@
   margin-right: 0px;
   text-align: right;
   color: #FFFFFF;
-  grid-area: linkE;
+  text-decoration-line:none;
+  transition: opacity linear 0.6s;
 }
 
 @media (min-width: 768px) {
@@ -16,3 +17,8 @@
     line-height: 28px;
   }
 }
+
+.header__link-en:hover {
+    opacity: 0.8;
+    transition: opacity linear 0.6s;
+  }

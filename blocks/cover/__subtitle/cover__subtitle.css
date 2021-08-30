@@ -1,6 +1,5 @@
 .cover__subtitle{
   margin: 16px 16px 33px 16px;
-  max-width: 288px;
   font-size: 14px;
   padding: 0;
   line-height: 16px;
@@ -14,8 +13,6 @@
     margin-left: 204px;
     margin-right: 204px;
     margin-bottom: 115px;
-    max-height: 66px;
-    max-width: 360px;
     font-size: 18px;
     line-height: 22px;
   }

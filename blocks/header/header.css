@@ -6,11 +6,8 @@
   height: 42px;
   padding: 0;
   padding-top: 16px;
-  display: grid;
-  grid-template-columns: 15fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas:
-  "logo linkR linkE";
+  display: flex;
+  justify-content: space-between;
   max-width: 1184px;
 }
 

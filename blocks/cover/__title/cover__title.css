@@ -5,7 +5,7 @@
     text-align: center;
     color: #FFFFFF;
     margin: 33px 16px 0 16px;
-    max-width: 288px;
+    
 }
 
 @media (min-width: 768px) {
@@ -15,7 +15,6 @@
     margin-top: 115px;
     font-size: 72px;
     line-height: 76px;
-    max-width: 560px;
   }
 }
 

@@ -8,7 +8,7 @@
   text-align: right;
   text-decoration-line: underline;
   color: #FFFFFF;
-  grid-area: linkR;
+  transition: opacity linear 0.3s;
 }
 
 @media (min-width: 768px) {
@@ -17,4 +17,9 @@
     font-size: 24px;
     line-height: 28px;
   }
+}
+
+.header__link-ru:hover {
+  opacity: 0.8;
+  transition: opacity linear 0.3s;
 }

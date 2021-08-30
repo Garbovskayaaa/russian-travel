@@ -10,11 +10,13 @@
   width: 1024px;
   }
 }
+
 @media (min-width: 768px) {
   .cover__background{
   width: 768px;
   }
 }
+
 @media (min-width: 1280px) {
   .cover__background{
   width: 1184px;
