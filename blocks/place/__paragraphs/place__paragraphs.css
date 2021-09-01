@@ -1,6 +1,6 @@
 .place__paragraphs{
-    margin: 0;
-    row-gap: 25px;
-    display: flex;
-    flex-direction: column;
+  margin: 0;
+  row-gap: 25px;
+  display: flex;
+  flex-direction: column;
 }

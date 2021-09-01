@@ -5,12 +5,8 @@
   margin-top: 64px;
   margin-left: 16px;
   margin-right: 16px;
-  min-height: 429px;
-  max-height: 754px;
-  min-width: 288px;
-  max-width: 720px;
-
 }
+
 @media (min-width: 691px) {
   .intro{
     margin-left: 24px;

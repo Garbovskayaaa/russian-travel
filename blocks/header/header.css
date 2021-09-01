@@ -3,17 +3,14 @@
   margin: 0;
   margin-left: 16px;
   margin-right: 16px;
-  height: 42px;
   padding: 0;
   padding-top: 16px;
   display: flex;
   justify-content: space-between;
-  max-width: 1184px;
 }
 
 @media (min-width: 768px) {
   .header {
-    height: 52px;
     padding-top: 28px;
     margin-left: 24px;
     margin-right: 24px;

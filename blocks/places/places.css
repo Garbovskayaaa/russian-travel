@@ -20,15 +20,15 @@
 
 @media (min-width: 768px) {
   .places{
-  min-width: 720px;
+    min-width: 720px;
   }
 }
 @media (min-width: 1024px) {
   .places{
-  margin-left: 48px;
-  margin-right: 48px;
-  min-width: 928px;
-  row-gap: 80px;
+    margin-left: 48px;
+    margin-right: 48px;
+    min-width: 928px;
+    row-gap: 80px;
   }
 }
 @media (min-width: 1280px) {

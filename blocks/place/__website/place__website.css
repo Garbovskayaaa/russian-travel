@@ -8,7 +8,7 @@
 
 @media (min-width: 768px) {
   .place__website{
-  margin: 0;
-  justify-content: flex-end;
+    margin: 0;
+    justify-content: flex-end;
   }
 }

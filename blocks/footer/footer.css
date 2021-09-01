@@ -1,8 +1,7 @@
 .footer{
   display: flex;
+  padding: 0;
   flex-direction: column;
-  min-width: 220px;
-  min-height: 310px;
   margin-top: 64px;
   margin-left: 16px;
   padding-bottom: 24px;
@@ -12,11 +11,8 @@
 @media (min-width: 768px) {
   .footer{
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    min-height: 18px;
     margin-top: 88px;
     margin-right: 16px;
     margin-left: 16px;
@@ -30,4 +26,3 @@
     margin-right: 48px;
   }
 }
-
