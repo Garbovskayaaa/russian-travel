@@ -1,4 +1,4 @@
-https://github.com/Garbovskayaaa/russian-travel.git
+https://garbovskayaaa.github.io/russian-travel/
 
 # Одностраничный сайт с удобным интерфейсом для разных устройств.  **Путешествие по России**
 
