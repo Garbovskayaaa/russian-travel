@@ -1,0 +1,11 @@
+.footer__site {
+  color: #FFFFFF;
+  transition: opacity linear 0.6s;
+  list-style-type:none;
+  text-decoration: none;
+}
+
+.footer__site:hover {
+    opacity: 0.8;
+    transition: opacity linear 0.6s;
+  }

@@ -1,9 +1,9 @@
-.lead{
+.lead {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   margin-top: 48px;
-  }
+}
 
 @media (min-width: 1024px) {
   .lead{
@@ -11,12 +11,12 @@
     margin-right: 48px;
   }
 }
+
 @media (min-width: 1280px) {
   .lead {
     margin-top: 56px;
     margin-left: 148px;
     margin-right: 148px;
-    height: 1005px;
     width: 984px;
   }
 }
